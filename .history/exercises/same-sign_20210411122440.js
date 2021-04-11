@@ -17,8 +17,9 @@ const sameSign = (num1, num2) => {
     return true;
   } else if ((num1 === 0 && num2 !== 0) || (num2 === 0 && num1 !== 0)) {
     return false;
+  } else {
+    return false;
   }
-  return false;
 };
 //* Begin of tests
 const assert = require("assert");

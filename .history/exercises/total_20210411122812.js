@@ -7,7 +7,7 @@
  */
 
 // Your code:
-const total = (num) => num.reduce((acc, count) => (acc += count), 0);
+const total = () => {};
 //* Begin of tests
 const assert = require("assert");
 

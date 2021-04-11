@@ -10,7 +10,7 @@
  */
 
 // Your code:
-const max = (num1, num2) => (num1 > num2 ? num1 : num2);
+const max = () => {};
 //* Begin of tests
 const assert = require("assert");
 

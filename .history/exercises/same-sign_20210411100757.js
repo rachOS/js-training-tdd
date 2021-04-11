@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
  * Create the `sameSign` function that takes 2 numbers as arguments and check
@@ -8,22 +8,11 @@
  */
 
 // Your code:
-const sameSign = (num1, num2) => {
-  if (
-    (num1 < 0 && num2 < 0) ||
-    (num1 > 0 && num2 > 0) ||
-    (num1 === 0 && num2 === 0)
-  ) {
-    return true;
-  } else if ((num1 === 0 && num2 !== 0) || (num2 === 0 && num1 !== 0)) {
-    return false;
-  }
-  return false;
-};
-//* Begin of tests
-const assert = require("assert");
 
-assert.strictEqual(typeof sameSign, "function");
+//* Begin of tests
+const assert = require('assert');
+
+assert.strictEqual(typeof sameSign, 'function');
 assert.strictEqual(sameSign.length, 2);
 assert.notStrictEqual(sameSign, Math.sameSign);
 assert.strictEqual(sameSign(-2, -1), true);

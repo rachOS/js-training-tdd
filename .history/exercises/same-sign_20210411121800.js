@@ -9,16 +9,7 @@
 
 // Your code:
 const sameSign = (num1, num2) => {
-  if (
-    (num1 < 0 && num2 < 0) ||
-    (num1 > 0 && num2 > 0) ||
-    (num1 === 0 && num2 === 0)
-  ) {
-    return true;
-  } else if ((num1 === 0 && num2 !== 0) || (num2 === 0 && num1 !== 0)) {
-    return false;
-  }
-  return false;
+  return Math.sameSign(num1, num2);
 };
 //* Begin of tests
 const assert = require("assert");
