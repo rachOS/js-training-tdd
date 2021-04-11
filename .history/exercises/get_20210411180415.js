@@ -16,7 +16,10 @@ const sourceObject = {
 };
 
 // Your code:
-const get = (key) => sourceObject[key];
+const get = () => {
+  sourceObject.num;
+  sourceObject.bool;
+};
 //* Begin of tests
 const assert = require("assert");
 

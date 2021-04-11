@@ -8,7 +8,7 @@
  */
 
 // Your code:
-const getFirst = (arr) => arr[0];
+const getFirst = () => {};
 //* Begin of tests
 const assert = require("assert");
 

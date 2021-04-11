@@ -8,7 +8,7 @@
  */
 
 // Your code:
-const getLast = (arr) => arr[arr.length - 1];
+const getLast = (arr) => arr.pop();
 //* Begin of tests
 const assert = require("assert");
 

@@ -8,7 +8,7 @@
  */
 
 // Your code:
-const getLength = (arr) => arr.length;
+const getLength = (arr) => arr;
 //* Begin of tests
 const assert = require("assert");
 
